@@ -16,6 +16,7 @@ specifiers:
   tailwindcss: ^3.0.23
   typescript: ^4.6.2
   web-vitals: ^2.1.4
+  wouter: ^2.8.0-alpha.2
 
 dependencies:
   '@testing-library/jest-dom': 5.16.2
@@ -30,6 +31,7 @@ dependencies:
   react-scripts: 5.0.0_d6d4be9bc5e21444469c50dac1badcb4
   typescript: 4.6.2
   web-vitals: 2.1.4
+  wouter: 2.8.0-alpha.2_react@17.0.2
 
 devDependencies:
   autoprefixer: 10.4.2_postcss@8.4.8
@@ -9391,6 +9393,14 @@ packages:
     dependencies:
       '@types/trusted-types': 2.0.2
       workbox-core: 6.5.1
+    dev: false
+
+  /wouter/2.8.0-alpha.2_react@17.0.2:
+    resolution: {integrity: sha512-aPsL5m5rW9RiceClOmGj6t5gn9Ut2TJVr98UDi1u9MIRNYiYVflg6vFIjdDYJ4IAyH0JdnkSgGwfo0LQS3k2zg==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 17.0.2
     dev: false
 
   /wrap-ansi/7.0.0:

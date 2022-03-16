@@ -7,4 +7,4 @@ npm run build
 ```
 
 # License
-See [LICENSE](LICENSE).
+[MIT](LICENSE)

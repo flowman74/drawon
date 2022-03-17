@@ -1,9 +1,9 @@
-import PageLayout from './PageLayout';
+import PageLayout from '../components/PageLayout';
 
 const SettingsPage = () => {
   return (
     <PageLayout title='Settings'>
-      <div>Settings</div>
+      <h1>Settings</h1>
     </PageLayout>
   );
 };

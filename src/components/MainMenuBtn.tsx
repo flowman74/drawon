@@ -1,6 +1,6 @@
 import { Link } from 'wouter';
 
-type Props = { children: string; href: string };
+interface Props { children: string; href: string };
 
 const MainMenu = ({ children, href }: Props) => {
   return (

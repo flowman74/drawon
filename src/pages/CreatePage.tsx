@@ -1,9 +1,9 @@
-import PageLayout from './PageLayout';
+import PageLayout from '../components/PageLayout';
 
 const CreatePage = () => {
   return (
     <PageLayout title='Create Game'>
-      <div>Create Game</div>
+      <h1>Create Game</h1>
     </PageLayout>
   );
 };
